@@ -1,50 +1,54 @@
-# Welcome to your Expo app 👋
+# 📱 Calculator App (React Native + Expo)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A simple and modern calculator app built using React Native with Expo Router. It supports basic math operations, history tracking, and theme switching.
 
-## Get started
+🚀 Features
+Basic arithmetic operations (+, −, ×, ÷)
+Percentage calculation
+Real-time expression evaluation
+Calculation history panel 🕘
+Dark / Light theme toggle 🌙☀️
+Clean and responsive UI
+Component-based structure
 
-1. Install dependencies
+📂 Project Structure
+app/
+  index.tsx
+  _layout.tsx
 
-   ```bash
-   npm install
-   ```
+components/
+  CalculatorButton.tsx
+  HistoryPanel.tsx  
+  ThemeToggle.tsx
 
-2. Start the app
+utils/
+  calculator.ts
+  formatter.ts
+  
+🛠️ Installation & Setup
+1. Clone the repository
+git clone https://github.com/Velankini-Varshini/Calculator-App.git
+2. Move into project folder
+cd Calculator-App
+3. Install dependencies
+npm install
+4. Start the app
+npx expo start
 
-   ```bash
-   npx expo start
-   ```
+Then scan the QR code using Expo Go app.
 
-In the output, you'll find options to open the app in a
+📱 Tech Stack
+React Native,
+Expo Router,
+TypeScript,
+React Hooks
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+⚠️ Notes
+Make sure you have Node.js installed
+Use Expo Go for testing on mobile
+Run npx expo start -c if cache issues occur
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
+👨‍💻 Author
+Built by Velankini Varshini
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
